@@ -1,0 +1,183 @@
+@charset "UTF-8";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#profile_cover{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+#profile_box{
+  width:260px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 20px;
+  background: white;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#profile_pic{
+  width: 140px;
+  height: 140px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ccc;
+  overflow: hidden;
+  
+}
+#profile_upload{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  border: 2px black solid;
+  opacity: 0;
+}
+#profile_icon{
+  font-size: 100px;
+  color: #ccc;
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  transform: translate(-50%);
+  
+}
+#upp{
+  font-size: 11px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px auto;
+}
+#name{
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px 0 10px 0;
+}
+#next
+{
+  width: 100%;
+  height: 30px;
+  margin: 10px 0 20px 0 ;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  outline: none;
+  display: none;
+}
+body{
+   position: relative;
+}
+#main_header{
+  width: 100%;
+  height: 100px;
+  background-image: url("../a.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+#up_pic{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left:50%;
+  transform: translate(-50%);
+  border: 5px white solid;
+  background-color: #bc4e9c;    
+}
+#profile_section{
+  width: 100%;
+  height: 350px;
+  background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact,#video,#logout{
+  width: 100px;
+  height: 80px;
+  border: black 2px solid;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  flex-direction: column;
+  background-color: white;
+  color:  #bc4e9c; 
+}
+#contact:hover,#video:hover,#logout:hover{
+  width: 120px;
+  height: 100px;
+  border: black 2px solid;
+  box-shadow: 0 0 12px #ccc;
+  transition: 0.5s;
+  cursor: pointer;
+}
+  
+#profile_section p{
+  position: absolute;
+  top: 180px;
+  left: 50%px;
+  font-family: "Ubuntu", sans-serif;
+
+}
+span{
+  font-size: 10px;
+  margin-top: 4px;
+  font-family: "Ubuntu", sans-serif;
+
+}
+#profile_footer{
+  width: 100%;
+  height: 100px;
+  background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+#profile_footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#user_naam{
+  text-align: center;
+  position: absolute;
+  top: 185px;
+  left: 46%;
+  font-family: "Ubuntu", sans-serif;
+
+}
+#link{
+  text-decoration: none;
+  outline: none;
+  color:  #bc4e9c;
+  margin: 0;
+  padding: 0;
+}

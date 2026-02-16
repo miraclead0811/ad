@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#cover_page{
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+}
+#header_box{
+  width: 140px;
+  height: 140px;
+  border: 5px white solid;
+  box-shadow: 0 0 10px #ccc;
+  position: absolute;
+  top: 20px;
+  left: 135px;
+  border-radius: 50%;
+}
+#plus_icon{
+  font-size: 50px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  color: purple;
+  z-index: 1;
+}
+#over_page{
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+#add_contact{
+  width: 70%;
+  height: auto;
+  background-color: white;
+  border: 2px purple solid;
+  box-shadow: 0 0 10px #ccc;
+  margin-top: 100px;
+}
+#a_contact{
+  color: purple;
+  font-size: 16px;
+  text-align: center;
+  margin: 15px;
+}
+#c_name,#n_name{
+  padding: 5px;
+  margin: 5px 15px;
+  width: 85%;
+  border: 2px purple solid;
+  border-left: 5px purple solid;
+  outline: none;
+}
+#save,#close{
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+}
+#cont_page{
+  width:100%;
+  height: 40%;
+  position: absolute;
+  top:180px;
+  left:0px;
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#header_page{
+  width: 100%;
+  height: 100px;
+}
+#allcontact{
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5px;
+}
+#search{
+  width: 95%;
+  margin: 10px 10px;
+  height: 30px;
+  outline: none;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+#save_contact{
+  width: 98%;
+  height: 90px;
+  background: white;
+  border-radius: 10px;
+  margin: 15px 2px;
+  padding: 6px;
+  position: relative;
+  
+}
+#save_contact p{
+  text-align: left;
+  margin: 6px 0 6px 15px;
+  font-size: 20px;
+}
+#break{
+  width:90%;
+}
+#edit{
+  position: absolute;
+  top:30px;
+  left:92%;
+  font-size: 25px;
+}
+#del{
+  position: absolute;
+  top:30px;
+  left:95%;
+  font-size: 25px;
+}
+#section_contact{
+  overflow: scroll;
+  height: 500px;
+}

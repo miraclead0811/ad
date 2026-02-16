@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+#header{
+  color: blue;
+  margin-top: 50px;
+  margin-left: 38%;
+  margin-bottom: 20px;
+  margin-right: 40%;
+  font-size: 50px;
+}
+#f_box{
+  width: 40%;
+  height: 360px;
+  margin: 10px auto;
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px grey;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+}
+#head{
+  color: black;
+  background-color: white;
+}
+#paragraph{
+  background-color: white;
+}
+form{
+  background-color: white;
+}
+#f_name{
+  width:48%;
+  height: 30px;
+  float: left;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+#s_name{
+  width:48%;
+  height: 30px;
+  float: left;
+  margin:3px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+#pe_name{
+  width:97%;
+  height: 30px;
+  float: left;
+  margin:3px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+#password{
+  width:97%;
+  height: 30px;
+  float: left;
+  margin:3px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+#warn{
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: 81px;
+  left:166px;
+  display: none;
+}
+#sub{
+  margin: 10px;
+  background-color: green;
+  padding: 5px;
+  border:2px solid green;
+  border-radius: 5px;
+  color : white;
+  
+}
+#date,#month,#year{
+  width: 31%;
+  height: 30px;
+  margin: 2px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+/* for moblie start */
+@media only screen and (max-width:600px)
+{
+  #f_name{
+  width:97%;
+  height: 30px;
+  float: left;
+  margin: 2px;
+    
+}
+  
+#header{
+  color: blue;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  margin-right: 40%;
+  font-size: 50px;
+}
+  
+#s_name{
+  width:97%;
+  height: 30px;
+  float: left;
+  margin:3px;
+}
+  #f_box{
+  width: 70%;
+  height: 500px;
+  margin: 50px auto;
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px grey;
+  padding: 10px;
+  position: relative;
+  
+}
+  #date,#month,#year{
+  width: 97%;
+  height: 30px;
+    margin: 4px;
+}
+  #show{
+    float: left;
+  }
+  #span{
+    float: left;
+    margin: 3px;
+    
+  }
+  #sub{
+  margin: 10px;
+  background-color: green;
+  padding: 5px;
+  border:2px solid green;
+  border-radius: 5px;
+  color : white;
+    float: left;
+}
+  #male,#female{
+  width:50%;
+  height: 30px;
+  border: 1px black solid;
+  padding-top: 2px;
+  padding-left: 5px;
+  position: relative;
+  margin: 5px;
+  float: left;
+    
+  }
+  
+#custom{
+  width:100%;
+  height: 30px;
+  border: 1px black solid;
+  padding-top: 2px;
+  padding-left: 5px;
+  position: relative;
+  margin: 5px;
+  float: left;
+  
+}
+  #male_check{
+  position: absolute;
+  top:188px;
+  left: 10px;
+  margin: 5px;
+  background-color: white;
+}
+}
+/*for mobile end*/
+#male,#female,#custom{
+  width:30%;
+  height: 30px;
+  border: 1px black solid;
+  padding-top: 2px;
+  padding-left: 5px;
+  position: relative;
+  margin: 5px;
+  float: left;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+#male_check{
+  position: absolute;
+  top:188px;
+  left: 100px;
+  margin: 5px;
+  background-color: white;
+}
+#female_check{
+  position: absolute;
+  top:188px;
+  left: 220px;
+  margin: 5px;
+  background-color: white;
+}
+#custom_check{
+  position: absolute;
+  top:188px;
+  left: 340px;
+  margin: 5px;
+  background-color: white;
+}
+#show{
+  margin:5px 0px 0px 5px ;
+  background-color: white;
+}
+#span{
+  background-color: white;
+}
+
+#footer{
+  background: white;
+  width: 100%;
+  
+}
+#hmm{
+  background-color: white;
+}
